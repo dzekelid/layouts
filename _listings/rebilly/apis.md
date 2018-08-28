@@ -6,11 +6,161 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Layouts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Retrieve a layout list
+  x-api-slug: layouts-get
+  description: Retrieve a layout list
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-get-openapi.md
+- name: Rebilly - Create a layout
+  x-api-slug: layouts-post
+  description: Create a layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-post-openapi.md
+- name: Rebilly - Delete a layout
+  x-api-slug: layoutsid-delete
+  description: Delete a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-delete-openapi.md
+- name: Rebilly - Retrieve a layout
+  x-api-slug: layoutsid-get
+  description: Retrieve a layout with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-get-openapi.md
+- name: Rebilly - Create or update a layout with predefined ID
+  x-api-slug: layoutsid-put
+  description: Create or update a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-put-openapi.md
+- name: Rebilly - Retrieve a layout list
+  x-api-slug: layouts-get
+  description: Retrieve a layout list
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-get-openapi.md
+- name: Rebilly - Create a layout
+  x-api-slug: layouts-post
+  description: Create a layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-post-openapi.md
+- name: Rebilly - Delete a layout
+  x-api-slug: layoutsid-delete
+  description: Delete a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-delete-openapi.md
+- name: Rebilly - Retrieve a layout
+  x-api-slug: layoutsid-get
+  description: Retrieve a layout with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-get-openapi.md
+- name: Rebilly - Create or update a layout with predefined ID
+  x-api-slug: layoutsid-put
+  description: Create or update a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-put-openapi.md
+- name: Rebilly - Create or update a layout with predefined ID
+  x-api-slug: layoutsid-put
+  description: Create or update a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-put-openapi.md
+- name: Rebilly - Retrieve a layout
+  x-api-slug: layoutsid-get
+  description: Retrieve a layout with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-get-openapi.md
+- name: Rebilly - Delete a layout
+  x-api-slug: layoutsid-delete
+  description: Delete a layout with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layoutsid-delete-openapi.md
+- name: Rebilly - Create a layout
+  x-api-slug: layouts-post
+  description: Create a layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-post-openapi.md
+- name: Rebilly - Retrieve a layout list
+  x-api-slug: layouts-get
+  description: Retrieve a layout list
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/layouts/master/_listings/rebilly/layouts-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com
